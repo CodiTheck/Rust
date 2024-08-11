@@ -105,7 +105,7 @@ error: could not download file from 'https://static.rust-lang.org/dist/channel-r
 
 ## Compilation
 Si l'installation s'est bien passé, alors on peut commencer à écrire
-notre premier programme en Rust dans un fichier nommé `votre_fichier.rs`.
+notre premier programme en Rust dans un fichier nommé `hello.rs`.
 
 ```rust
 fn main() {
@@ -113,8 +113,35 @@ fn main() {
 }
 ```
 
+Pour compiler le code du fichier `hello.rs`, nous allons exécuter
+la commande suivante :
 
+```sh
+rustc hello.rs
+```
 
+Cette commande va générer un fichier binaire exécutable ayant le même nom
+que le fichier source. Pour exécuter ce binaire, il suffira d'exécuter :
+
+```sh
+./hello
+```
+
+Au cas où tu souhaite modifier le nom du fichier binaire à la compilation,
+tu peux rajouter l'option `-o` suivie du nom que tu souhaites donner
+au fichier.
+
+```sh
+rustc hello.rs -o mon_premier_programme
+```
+
+Et donc, tu feras comme suite pour l'exécuter :
+
+```sh
+./mon_premier_programme
+```
+
+Maintenant, tu sais comment compiler et exécuter tes programmes en Rust.
 
 
 
