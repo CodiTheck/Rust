@@ -42,7 +42,7 @@ Une chose que tu dois retenir, à partir du moment où tu as spécifié le type
 d'une variable, elle ne peut plus contenir une valeur de type différent.
 
 ```rust
-let x:u32 = 2000;
+let mut x:u32 = 2000;
 x = 3.23 // Donnera une erreur !
 ```
 
