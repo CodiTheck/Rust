@@ -38,7 +38,15 @@ let mut x:f32 = 0.0;
 x = 1.2;
 ```
 
-Voici le tableau récapitulatif des types de bases en Rust :
+Une chose que tu dois retenir, à partir du moment où tu as spécifié le type
+d'une variable, elle ne peut plus contenir une valeur de type différent.
+
+```rust
+let x:u32 = 2000;
+x = 3.23 // Donnera une erreur !
+```
+
+Voici donc le tableau récapitulatif des types de bases en Rust :
 
 | Type    | Description                    |
 |---------|--------------------------------|
