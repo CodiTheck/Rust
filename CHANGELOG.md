@@ -14,6 +14,7 @@ ant this projet adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - La session portant sur l'installation des outils de Rust à été ajoutée.
 - La session portant sur la compilation et l'exécution de code Rust a été
 ajoutée.
+- Le chapitre sur les variables en Rust a été ajouté.
 
 
 [Unreleased]: https://example.com/compare/v1.2.0...HEAD
