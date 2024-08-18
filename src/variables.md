@@ -63,9 +63,10 @@ Voici donc le tableau récapitulatif des types de bases en Rust :
 | `str`   | Chaîne de caractères.          |
 
 
-Des fois, cela arrive qu'on déclare une variable qu'on utilise pas
-dans le programme. Le compilateur Rust, affiche un *Warning* à la compilation,
-lorsque certaines variables sont déclarées mais n'ont plus été utilisées.
+Des fois, cela arrive qu'on déclare une variable qu'on n'utilise pas
+dans le programme. Dans ce cas, le compilateur Rust, affiche un *Warning*
+à la compilation, lorsque certaines variables sont déclarées 
+mais n'ont plus été utilisées.
 
 Par exemple si on tente de compiler le boût de code suivant :
 
