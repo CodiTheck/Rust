@@ -122,8 +122,25 @@ match age {
 /// Affichera : Vous ete majeur car 29 est entre [18; 29].
 ```
 
+Et enfin, la dernière façon de définir encore un motif de pattern matching,
+concerne la classification d'une information dans une catégorie. Voyons
+cela avec l'exemple ci-dessous :
 
+```rust
+let food = "chien";
 
+match food {
+    "tigre" | "lion" | "chat" => println!("Categorie des felins"),
+    "loup" | "chien" | "chacal" => println!("Categorie des canides"),
+    "corbeau" => println!("Categorie des oiseaux"),
+    _ => println!("Categorie inconnue !"),
+};
+
+/// Affichera : Categorie des canides
+```
+
+Le caractère `|` est utilisé pour le **OU**. Note bien qu'il n'est pas possible
+d'utiliser le caractère `&` pour formuller ce type de pattern.
 
 
 
